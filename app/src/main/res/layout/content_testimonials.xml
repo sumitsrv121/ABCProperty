@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.srv.sumit.abcproperty.Testimonials"
+    tools:showIn="@layout/activity_testimonials">
+
+ <LinearLayout
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:orientation="vertical"
+     android:layout_margin="5dp">
+     <LinearLayout
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:orientation="horizontal"
+         android:layout_margin="5dp">
+
+        <ImageView
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:id="@+id/imagetest"
+            android:src="@drawable/ic_menu_slideshow"/>
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Sumit Saurav"
+           android:textSize="20sp"
+           android:layout_margin="20dp"/>
+     </LinearLayout>
+     <LinearLayout
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:orientation="horizontal"
+         android:layout_margin="5dp">
+
+         <ImageView
+             android:layout_width="75dp"
+             android:layout_height="75dp"
+             android:id="@+id/imagetest10"
+             android:src="@drawable/ic_menu_camera"/>
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="Sushank Saurav"
+             android:textSize="20sp"
+             android:layout_margin="20dp"/>
+     </LinearLayout>
+     <LinearLayout
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:orientation="horizontal"
+         android:layout_margin="5dp">
+
+         <ImageView
+             android:layout_width="75dp"
+             android:layout_height="75dp"
+             android:id="@+id/imagetest9"
+             android:src="@drawable/ic_menu_gallery"/>
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="Shubham Saurav"
+             android:textSize="20sp"
+             android:layout_margin="20dp"/>
+     </LinearLayout>
+     <LinearLayout
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:orientation="horizontal"
+         android:layout_margin="5dp">
+
+         <ImageView
+             android:layout_width="75dp"
+             android:layout_height="75dp"
+             android:id="@+id/imagetest8"
+             android:src="@drawable/ic_menu_slideshow"/>
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="Piyush Chauhan"
+             android:textSize="20sp"
+             android:layout_margin="20dp"/>
+     </LinearLayout>
+     <LinearLayout
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:orientation="horizontal"
+         android:layout_margin="5dp">
+
+         <ImageView
+             android:layout_width="75dp"
+             android:layout_height="75dp"
+             android:id="@+id/imagetest7"
+             android:src="@drawable/ic_menu_camera"/>
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="Salman Khan"
+             android:textSize="20sp"
+             android:layout_margin="20dp"/>
+     </LinearLayout>
+     <LinearLayout
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:orientation="horizontal"
+         android:layout_margin="5dp">
+
+         <ImageView
+             android:layout_width="75dp"
+             android:layout_height="75dp"
+             android:id="@+id/imagetest6"
+             android:src="@drawable/ic_menu_gallery"/>
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="Virat Kholi"
+             android:textSize="20sp"
+             android:layout_margin="20dp"/>
+     </LinearLayout>
+     <LinearLayout
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:orientation="horizontal"
+         android:layout_margin="5dp">
+
+         <ImageView
+             android:layout_width="75dp"
+             android:layout_height="75dp"
+             android:id="@+id/imagetest4"
+             android:src="@drawable/ic_menu_slideshow"/>
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="Ricky Pointing"
+             android:textSize="20sp"
+             android:layout_margin="20dp"/>
+     </LinearLayout>
+     <LinearLayout
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:orientation="horizontal"
+         android:layout_margin="5dp">
+
+         <ImageView
+             android:layout_width="75dp"
+             android:layout_height="75dp"
+             android:id="@+id/imagetest3"
+             android:src="@drawable/ic_menu_camera"/>
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="Amithab Bachan"
+             android:textSize="20sp"
+             android:layout_margin="20dp"/>
+     </LinearLayout>
+     <LinearLayout
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:orientation="horizontal"
+         android:layout_margin="5dp">
+
+         <ImageView
+             android:layout_width="75dp"
+             android:layout_height="75dp"
+             android:id="@+id/imagetest2"
+             android:src="@drawable/ic_menu_gallery"/>
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="Tom Hanks"
+             android:textSize="20sp"
+             android:layout_margin="20dp"/>
+     </LinearLayout>
+     <LinearLayout
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:orientation="horizontal"
+         android:layout_margin="5dp">
+
+         <ImageView
+             android:layout_width="75dp"
+             android:layout_height="75dp"
+             android:id="@+id/imagetest1"
+             android:src="@drawable/ic_menu_slideshow"/>
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="Akshay Kumar"
+             android:textSize="20sp"
+             android:layout_margin="20dp"/>
+     </LinearLayout>
+
+ </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>

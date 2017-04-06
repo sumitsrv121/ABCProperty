@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.srv.sumit.abcproperty.Gallery"
+    tools:showIn="@layout/activity_gallery">
+
+   <LinearLayout
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical">
+
+       <android.support.v7.widget.CardView
+           xmlns:android="http://schemas.android.com/apk/res/android"
+           xmlns:card_view="http://schemas.android.com/apk/res-auto"
+           android:layout_width="match_parent"
+           android:layout_height="200dp"
+           card_view:cardCornerRadius="4dp"
+           android:layout_margin="4dp"
+           android:id="@+id/card1">
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="fill_parent"
+               android:orientation="vertical">
+               <ImageView
+                   android:layout_width="match_parent"
+                   android:layout_height="0dp"
+                   android:layout_weight="1.0"
+                   android:scaleType="centerCrop"
+                   android:background="@drawable/livingroom"/>
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:text="Living Room"
+                   android:textColor="#000000"
+                   android:textStyle="bold"
+                   android:typeface="serif"
+                   android:layout_marginTop="2dp"
+                   android:layout_marginLeft="5dp"
+                   android:layout_marginBottom="5dp"/>
+           </LinearLayout>
+
+       </android.support.v7.widget.CardView>
+       <android.support.v7.widget.CardView
+           xmlns:android="http://schemas.android.com/apk/res/android"
+           xmlns:card_view="http://schemas.android.com/apk/res-auto"
+           android:layout_width="match_parent"
+           android:layout_height="200dp"
+           card_view:cardCornerRadius="4dp"
+           android:layout_margin="4dp"
+           android:id="@+id/card2">
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="fill_parent"
+               android:orientation="vertical">
+               <ImageView
+                   android:layout_width="match_parent"
+                   android:layout_height="0dp"
+                   android:layout_weight="1.0"
+                   android:scaleType="centerCrop"
+                   android:background="@drawable/bedroom"/>
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:text="Bed Room"
+                   android:textColor="#000000"
+                   android:textStyle="bold"
+                   android:typeface="serif"
+                   android:layout_marginTop="2dp"
+                   android:layout_marginLeft="5dp"
+                   android:layout_marginBottom="5dp"/>
+           </LinearLayout>
+
+       </android.support.v7.widget.CardView>
+       <android.support.v7.widget.CardView
+           xmlns:android="http://schemas.android.com/apk/res/android"
+           xmlns:card_view="http://schemas.android.com/apk/res-auto"
+           android:layout_width="match_parent"
+           android:layout_height="200dp"
+           card_view:cardCornerRadius="4dp"
+           android:layout_margin="4dp"
+           android:id="@+id/card3">
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="fill_parent"
+               android:orientation="vertical">
+               <ImageView
+                   android:layout_width="match_parent"
+                   android:layout_height="0dp"
+                   android:layout_weight="1.0"
+                   android:scaleType="centerCrop"
+                   android:background="@drawable/kitchen"/>
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:text="Kitchen"
+                   android:textColor="#000000"
+                   android:textStyle="bold"
+                   android:typeface="serif"
+                   android:layout_marginTop="2dp"
+                   android:layout_marginLeft="5dp"
+                   android:layout_marginBottom="5dp"/>
+           </LinearLayout>
+
+       </android.support.v7.widget.CardView>
+       <android.support.v7.widget.CardView
+           xmlns:android="http://schemas.android.com/apk/res/android"
+           xmlns:card_view="http://schemas.android.com/apk/res-auto"
+           android:layout_width="match_parent"
+           android:layout_height="200dp"
+           card_view:cardCornerRadius="4dp"
+           android:layout_margin="4dp"
+           android:id="@+id/card4">
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="fill_parent"
+               android:orientation="vertical">
+               <ImageView
+                   android:layout_width="match_parent"
+                   android:layout_height="0dp"
+                   android:layout_weight="1.0"
+                   android:scaleType="centerCrop"
+                   android:background="@drawable/bathroom"/>
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:text="Bath Room"
+                   android:textColor="#000000"
+                   android:textStyle="bold"
+                   android:typeface="serif"
+                   android:layout_marginTop="2dp"
+                   android:layout_marginLeft="5dp"
+                   android:layout_marginBottom="5dp"/>
+           </LinearLayout>
+
+       </android.support.v7.widget.CardView>
+
+       <android.support.v7.widget.CardView
+           xmlns:android="http://schemas.android.com/apk/res/android"
+           xmlns:card_view="http://schemas.android.com/apk/res-auto"
+           android:layout_width="match_parent"
+           android:layout_height="200dp"
+           card_view:cardCornerRadius="4dp"
+           android:layout_margin="4dp"
+           android:id="@+id/card6">
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="fill_parent"
+               android:orientation="vertical">
+               <ImageView
+                   android:layout_width="match_parent"
+                   android:layout_height="0dp"
+                   android:layout_weight="1.0"
+                   android:scaleType="centerCrop"
+                   android:background="@drawable/studyroom"/>
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:text="Study Room"
+                   android:textColor="#000000"
+                   android:textStyle="bold"
+                   android:typeface="serif"
+                   android:layout_marginTop="2dp"
+                   android:layout_marginLeft="5dp"
+                   android:layout_marginBottom="5dp"/>
+           </LinearLayout>
+
+       </android.support.v7.widget.CardView>
+
+       <android.support.v7.widget.CardView
+           xmlns:android="http://schemas.android.com/apk/res/android"
+           xmlns:card_view="http://schemas.android.com/apk/res-auto"
+           android:layout_width="match_parent"
+           android:layout_height="200dp"
+           card_view:cardCornerRadius="4dp"
+           android:layout_margin="4dp"
+           android:id="@+id/card7">
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="fill_parent"
+               android:orientation="vertical">
+               <ImageView
+                   android:layout_width="match_parent"
+                   android:layout_height="0dp"
+                   android:layout_weight="1.0"
+                   android:scaleType="centerCrop"
+                   android:background="@drawable/diningroom"/>
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:text="Dining Room"
+                   android:textColor="#000000"
+                   android:textStyle="bold"
+                   android:typeface="serif"
+                   android:layout_marginTop="2dp"
+                   android:layout_marginLeft="5dp"
+                   android:layout_marginBottom="5dp"/>
+           </LinearLayout>
+
+       </android.support.v7.widget.CardView>
+   </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>
